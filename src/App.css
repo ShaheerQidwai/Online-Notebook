@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.mainContainer {
+  margin-left: 200px;
+  min-height: 100vh;
+}
+.navBar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 56px;
+  color: #c8acd6;
+  position: -webkit-sticky;
+}
+.navBar .nav-link {
+  color: #c8acd6;
+}
+.navBar .navbar-brand {
+  color: #c8acd6;
+}
+
+.Edit-btn {
+  background-color: #322c9f;
+}
+
+.sider {
+  color: #c8acd6 !important;
+  background-color: #17153b !important;
+  position: fixed;
+  top: 56px; /* height of navbar */
+  left: 0;
+  height: calc(100vh - 56px); /* full screen minus navbar */
+  width: 200px; /* or whatever your sidebar width is */
+  overflow-y: auto;
+
+  z-index: 1000;
+}
+
+.NoteCard {
+  color: #d9ccdf;
+  width: 60vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  min-height: 30vh;
+  margin-bottom: 5vh;
+  background-color: #4e46a7;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.NoteCard:hover {
+  box-shadow: 4px 5px 20px rgba(0.8, 0.8, 0.8, 0.8);
+}
+
+.crossBtn {
+  position: absolute;
+  right: 0;
+  padding-right: 2vw;
+  padding-top: 2vh;
+}
+.CreateNote {
+  width: 60vw;
+  margin: 5vh;
+}
+
+.Description {
+  margin-top: 5vh;
+}
+.Page {
+  width: 50vw;
+}
+.Alertt {
+  margin-top: 3vh;
+  margin-left: 5vw;
+}
+body {
+  background-color: #514c6e;
+  color: #c8acd6;
+}
+.custom-active {
+  background-color: #322c9f;
+}
+.textBox {
+  background-color: #ae95ba;
+}
+
+.wrapper {
+  width: 100%;
+  background: #0b0361;
+  border-radius: 5px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.wrapper .title {
+  height: 120px;
+  background: #2e2f6a;
+  border-radius: 5px 5px 0 0;
+  color: #6bb0b5c9;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: auto;
+}
+.wrapper form {
+  padding: 25px 35px;
+}
+.wrapper form .row {
+  height: 60px;
+  width: 700px;
+  margin-top: 15px;
+  position: relative;
+}
+.wrapper form .row input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  background-color: #9de8f3;
+  padding-left: 70px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 18px;
+  color: #362664;
+  transition: all 0.3s ease;
+}
+form .row input:focus {
+  border-color: #ffffff;
+}
+form .row input::placeholder {
+  color: #625ca8;
+}
+.wrapper form .row i {
+  position: absolute;
+  width: 55px;
+  height: 100%;
+  color: #fff;
+  font-size: 22px;
+  background: #1636a0;
+  border: 1px solid #15039c;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass {
+  margin-top: 12px;
+}
+.wrapper form .pass a {
+  color: #464c8c;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover {
+  text-decoration: underline;
+}
+.wrapper form .button input {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #222866;
+  border: 1px solid #1682a0;
+  cursor: pointer;
+}
+form .button input:hover {
+  background: #36086e;
+}
+.wrapper form .signup-link {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 17px;
+}
+.wrapper form .signup-link a {
+  color: #af7dff;
+  text-decoration: none;
+}
+form .signup-link a:hover {
+  text-decoration: underline;
+}
+
+.formDiv {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
