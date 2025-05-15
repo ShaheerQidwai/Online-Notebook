@@ -11,7 +11,7 @@ A web-based note-taking application where users can securely **create**, **edit*
 - Backend RESTful API with Express.js
 - Data persistence with MongoDB
 - State management using React Context API
-- Fast and responsive UI (React + Tailwind/Bootstrap)
+- Fast and responsive UI (React + Bootstrap)
 
 ---
 
